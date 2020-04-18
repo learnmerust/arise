@@ -25,10 +25,10 @@ TypeError: Cannot read property 'z' of undefined
     at Timer.listOnTimeout (timers.js:267:5)
 ```
 
-running it with `forever` will ensure the process starts up again after it crashes.
+running it with `arise` will ensure the process starts up again after it crashes.
 
 #### example usage
 ```
-./forever node lol.js
-./forever top
+./arise node lol.js
+./arise top
 ```

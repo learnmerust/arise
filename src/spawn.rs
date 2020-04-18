@@ -15,6 +15,7 @@ pub fn new(process: &str, args: Vec<String>) {
       // status not ready yet, let's wait
       let res = child.wait();
       println!("Exited with status code: {:?}", res.unwrap().code());
+      println!("arise!");
       restart()
     }
     Err(error) => {

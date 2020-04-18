@@ -1,8 +1,4 @@
 [package]
-name = "forever"
+name = "arise"
 version = "0.1.0"
 authors = ["Ricky Miller <ricky.miller@gmail.com>"]
-
-[dependencies]
-tokio-core = "0.1.10"
-tokio-process = "0.1.4"
