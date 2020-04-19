@@ -2,6 +2,9 @@
 
 Run a process "forever". Run a process and recursively spawn it when it dies.
 
+### Install
+`cargo install arise`
+
 Consider the following node application:
 ```js
 let i = 0
