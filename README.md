@@ -1,6 +1,8 @@
 ### Arise
 
-Run a process "forever". Run a process and spawn it when it dies.
+Run a process "forever". Run a process and spawn it (with arguments) again when it crashes or dies.
+
+
 
 ### Install
 `cargo install arise`
