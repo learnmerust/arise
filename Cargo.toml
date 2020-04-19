@@ -2,7 +2,7 @@
 name = "arise"
 version = "0.1.2-alpha.0"
 authors = ["Ricky Miller <ricky.miller@gmail.com>"]
-description = 'Run a process "forever"; Run a process and recursively spawn it when it dies.'
+description = 'Run a process "forever"; Run a process and spawn it when it dies.'
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/learnmerust/arise"
 readme = "README.md"
